@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="index.css">
+  <title>IDEL</title>
+</head>
+
+<body>
+  <header class="header">
+    <img src="./img/logo.svg" alt="логотип компании" class="header__logo">
+    <div class="header__container">
+      <a href="" class="header__nav-item">Главная</a>
+
+      <div class="header__select">
+        <button class="header__nav-item header__btn collapsed" type="button" data-toggle="collapse"
+          data-target="#select1" aria-expanded="false" aria-controls="select1">О компании</button>
+        <ul class="header__list collapse multi-collapse" id="select1">
+          <a href="" class="header__option">какая то ссылка</a>
+          <a href="" class="header__option">какая то ссылка</a>
+          <a href="" class="header__option">какая то ссылка</a>
+        </ul>
+      </div>
+
+      <div class="header__select">
+        <button class="header__nav-item header__btn collapsed" type="button" data-toggle="collapse"
+          data-target="#select2" aria-expanded="false" aria-controls="select2">Каталог</button>
+        <ul class="header__list collapse multi-collapse" id="select2">
+          <a href="" class="header__option">какая то ссылка</a>
+          <a href="" class="header__option">какая то ссылка</a>
+          <a href="" class="header__option">какая то ссылка</a>
+        </ul>
+      </div>
+      <a href="" class="header__nav-item">Новости</a>
+      <a href="" class="header__nav-item">Фотогалерея</a>
+      <a href="" class="header__nav-item">Обратная связь</a>
+      <a href="" class="header__nav-item">Контакты</a>
+    </div>
+  </header>
+
+  <div class="header-mobile__h"></div>
+  <header class="header-mobile">
+    <img src="./img/logo.svg" alt="логотип компании" class="header__logo">
+
+    <button class="header-mobile__hamb collapsed" type="button" data-toggle="collapse" data-target="#headMobile"
+      aria-expanded="false" aria-controls="headMobile"></button>
+
+    <div class="header-mobile__container collapse multi-collapse" id="headMobile">
+      <a href="" class="header__nav-item">Главная</a>
+
+      <div class="header-mobile__select">
+        <button class="header__nav-item header__btn collapsed" type="button" data-toggle="collapse"
+          data-target="#selectMobile1" aria-expanded="false" aria-controls="selectMobile1">О компании</button>
+        <ul class="header__list header-mobile__list  collapse multi-collapse" id="selectMobile1">
+          <a href="" class="header__option">какая то ссылка</a>
+          <a href="" class="header__option">какая то ссылка</a>
+          <a href="" class="header__option">какая то ссылка</a>
+        </ul>
+      </div>
+      <div class="header-mobile__select">
+        <button class="header__nav-item header__btn collapsed" type="button" data-toggle="collapse"
+          data-target="#selectMobile2" aria-expanded="false" aria-controls="selectMobile2">Каталог</button>
+        <ul class="header__list header-mobile__list  collapse multi-collapse" id="selectMobile2">
+          <a href="" class="header__option">какая то ссылка</a>
+          <a href="" class="header__option">какая то ссылка</a>
+          <a href="" class="header__option">какая то ссылка</a>
+        </ul>
+      </div>
+      <a href="" class="header__nav-item">Новости</a>
+      <a href="" class="header__nav-item">Фотогалерея</a>
+      <a href="" class="header__nav-item">Обратная связь</a>
+      <a href="" class="header__nav-item">Контакты</a>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="overlay">
+      <div class="overlay__img"></div>
+      <div class="overlay__container">
+        <h1 class="overlay__title"><span class="span-title">АГРОКОНТИНЕНТ-52<span class="span-line"> —
+            </span></span>компания производитель бытовой и профессиональной химии</h1>
+
+        <div class="overlay__btns">
+          <button class="btn">УЗНАТЬ БОЛЬШЕ</button>
+          <button class="btn clear">СКАЧАТЬ КАТАЛОГИ</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="about">
+      <h2 class="about__title title">О компании</h2>
+      <p class="about__text weight">ООО «АГРОКОНТИНЕНТ-52» - молодое, динамично развивающееся предприятие, созданное
+        в 2015 году.</p>
+      <p class="about__text">
+        Мы являемся производителем бытовой и промышленной химии и активно сотрудничаем
+        с дистрибьюторами и оптовиками из России. Наша компания занимается производством и поставками высококачественной
+        химической продукции, включая средства для уборки, моющие средства и специализированные промышленные очистители.
+      </p>
+
+      <ul class="about__text collapse multi-collapse" id="more1">
+        <li class="about__text italic">Мы уверены, что ключ к успешному бизнесу — это предоставление исключительного
+          сервиса и удовлетворение
+          потребностей наших клиентов.</li>
+        <li class="about__text">Наша команда готова обеспечить поддержку на всех этапах сотрудничества, будь то выбор
+          продукции, логистика
+          или маркетинговая поддержка. Вся наша продукция производится в соответствии с высокими стандартами качества
+          и безопасности. Для получения дополнительной информации и оптовых цен, пожалуйста, свяжитесь с нами. Мы готовы
+          ответить на все ваши вопросы и обсудить возможности сотрудничества.</li>
+      </ul>
+
+      <button class="about__more-btn collapsed" type="button" data-toggle="collapse" data-target="#more1"
+        aria-expanded="false" aria-controls="more1" id="more-btn">
+        <span class="one">узнать больше</span>
+        <span class="two">скрыть</span>
+      </button>
+
+      <ul class="about__blocks">
+        <li class="about__block block">
+          <img class="block__icon" src="./img/free-icon-factory-plant-2821742 1.svg" alt="иконка производства">
+          <p class="block__text">два производственных комплекса</p>
+        </li>
+        <li class="about__block block">
+          <img class="block__icon" src="./img/free-icon-laboratory-8262782 1.svg" alt="иконка производства">
+          <p class="block__text">собственные лаборатории</p>
+        </li>
+        <li class="about__block block">
+          <img class="block__icon" src="./img/free-icon-factory-plant-2821742 2.svg" alt="иконка производства">
+          <p class="block__text">линии производства и розлива</p>
+        </li>
+        <li class="about__block block">
+          <img class="block__icon" src="./img/free-icon-factory-plant-2821742 4.svg" alt="иконка производства">
+          <p class="block__text">складские помещения</p>
+        </li>
+        <li class="about__block block">
+          <img class="block__icon" src="./img/free-icon-factory-plant-2821742 5.svg" alt="иконка производства">
+          <p class="block__text">современное оборудование</p>
+        </li>
+      </ul>
+
+    </section>
+
+    <section class="partners border">
+      <h2 class="partners__title title">Партнеры</h2>
+      <div class="partners__container">
+        <img class="partners__icon" src="./img/Ellipse 83.svg" alt="лого партнера">
+        <img class="partners__icon" src="./img/Ellipse 84.svg" alt="лого партнера">
+        <img class="partners__icon" src="./img/Ellipse 85.svg" alt="лого партнера">
+        <img class="partners__icon" src="./img/Ellipse 86.svg" alt="лого партнера">
+        <img class="partners__icon" src="./img/Ellipse 87.svg" alt="лого партнера">
+      </div>
+      <h2 class="partners__title title">Наши бренды</h2>
+      <div class="partners__container">
+        <img class="partners__icon" src="./img/Ellipse 88.svg" alt="лого бренда">
+        <img class="partners__icon" src="./img/Ellipse 89.svg" alt="лого бренда">
+      </div>
+
+      <button class="btn outline">СОТРУДНИЧАТЬ</button>
+    </section>
+
+    <section class="catalog border">
+      <h2 class="catalog__title title">Каталог нашей продукции</h2>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide mySwiper__slide">
+            <div class="d-flex flex-column align-items-center">
+              <h2 class="mySwiper__subtitle title sub">Бытовая химия</h2>
+              <p class="mySwiper__description">Большой ассортимент бытовой химии для ежедневного использования в бытовых
+                условиях</p>
+            </div>
+            <img src="./img/Mask group (0).png" class="mySwiper__img">
+          </div>
+          <div class="swiper-slide mySwiper__slide">
+            <div class="d-flex flex-column align-items-center">
+              <h2 class="mySwiper__subtitle title sub">Для прачечных</h2>
+              <p class="mySwiper__description">Гели для стирки, средства
+                для прачечных, химчисток и на пищевых производствах, стиральные порошки</p>
+            </div>
+            <img src="./img/Mask group (1).png" class="mySwiper__img">
+          </div>
+          <div class="swiper-slide mySwiper__slide">
+            <div class="d-flex flex-column align-items-center">
+              <h2 class="mySwiper__subtitle title sub">PRO химия</h2>
+              <p class="mySwiper__description">Гели для стирки, кислотные и щелочные моющие средства, средства для
+                удаления ржавчины</p>
+            </div>
+            <img src="./img/Mask group (2).png" class="mySwiper__img">
+          </div>
+          <div class="swiper-slide mySwiper__slide">
+            <div class="d-flex flex-column align-items-center">
+              <h2 class="mySwiper__subtitle title sub">Химия для HoReCa</h2>
+              <p class="mySwiper__description">Жидкое мыло, средства для мытья пола, посуды, средства для очистки
+                стекол, зеркал, окон</p>
+            </div>
+            <img src="./img/Mask group (3).png" class="mySwiper__img">
+          </div>
+          <div class="swiper-slide mySwiper__slide">
+            <div class="d-flex flex-column align-items-center">
+              <h2 class="mySwiper__subtitle title sub">Для пищевых производств</h2>
+              <p class="mySwiper__description">Гель для мытья посуды, средство для автоматической мойки, универсальное
+                чистящее средство</p>
+            </div>
+            <img src="./img/Mask group (4).png" class="mySwiper__img">
+          </div>
+          <div class="swiper-slide mySwiper__slide">
+            <div class="d-flex flex-column align-items-center">
+              <h2 class="mySwiper__subtitle title sub">Для клининга</h2>
+              <p class="mySwiper__description">Щелочные пенообразующие средства, низкопенные средства, жидкое мыло,
+                концентрат для посудомоечных машин</p>
+            </div>
+            <img src="./img/Mask group (5).png" class="mySwiper__img">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <button class="catalog__btn btn outline">Перейти в каталог</button>
+
+      <div class="catalog__grid">
+
+        <div class="catalog__item">
+          <h2 class="catalog__subtitle title sub">Бытовая химия</h2>
+          <img src="./img/Mask group (0).png" class="catalog__img">
+        </div>
+        <div class="catalog__item">
+          <h2 class="catalog__subtitle title sub">Для прачечных</h2>
+          <img src="./img/Mask group (1).png" class="catalog__img">
+        </div>
+        <div class="catalog__item">
+          <h2 class="catalog__subtitle title sub">PRO химия</h2>
+          <img src="./img/Mask group (2).png" class="catalog__img">
+        </div>
+        <div class="catalog__item">
+          <h2 class="catalog__subtitle title sub">Химия для HoReCa</h2>
+          <img src="./img/Mask group (3).png" class="catalog__img">
+        </div>
+        <div class="catalog__item">
+          <h2 class="catalog__subtitle title sub">Для пищевых производств</h2>
+          <img src="./img/Mask group (4).png" class="catalog__img">
+        </div>
+        <div class="catalog__item">
+          <h2 class="catalog__subtitle title sub">Для клининга</h2>
+          <img src="./img/Mask group (5).png" class="catalog__img">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contract">
+      <h2 class="title">Контрактные производства</h2>
+      <p class="contract__text">
+        Приглашаем вас для создания собственного бренда! Мы предоставляем уникальную возможность разработать и запустить
+        свою линию продукции под вашим собственным именем. Присоединитесь к нам для создания уникального
+        идентификационного облика вашего бренда и воплощения в жизнь ваших идей.
+      </p>
+      <h3 class="contract__subtitle">Продукция наших партнеров</h3>
+      <ul class="contract__list">
+        <li><img class="contract__img" src="./img/gel1.png" alt="продукция партнера"></li>
+        <li><img class="contract__img" src="./img/gel2.png" alt="продукция партнера"></li>
+        <li><img class="contract__img" src="./img/gel3.png" alt="продукция партнера"></li>
+        <li><img class="contract__img" src="./img/gel4.png" alt="продукция партнера"></li>
+        <li><img class="contract__img" src="./img/gel5.png" alt="продукция партнера"></li>
+      </ul>
+      <button class="btn outline">СОТРУДНИЧАТЬ</button>
+    </section>
+
+    <section class="news">
+      <h2 class="title">Новости</h2>
+
+      <div class="news__container">
+        <article class="news__item">
+          <a href="#" class="news__link">
+            <img class="news__img" src="./img/newImg.png" alt="картинка новости">
+            <div class="news__content">
+              <p class="news__date">12.09.2022</p>
+              <p class="news__text">В период активного развития импортозамещения наша компания выстояла все возможные
+                трудности, благодаря чему были закуплены новые заводские линии.</p>
+              <p class="news__more">подробнее</p>
+            </div>
+          </a>
+        </article>
+        <article class="news__item">
+          <a href="#" class="news__link">
+            <img class="news__img" src="./img/newImg.png" alt="картинка новости">
+            <div class="news__content">
+              <p class="news__date">12.09.2022</p>
+              <p class="news__text">В период активного развития импортозамещения наша компания выстояла все возможные
+                трудности, благодаря чему были закуплены новые заводские линии.</p>
+              <p class="news__more">подробнее</p>
+            </div>
+          </a>
+        </article>
+        <article class="news__item">
+          <a href="#" class="news__link">
+            <img class="news__img" src="./img/newImg.png" alt="картинка новости">
+            <div class="news__content">
+              <p class="news__date">12.09.2022</p>
+              <p class="news__text">В период активного развития импортозамещения наша компания выстояла все возможные
+                трудности, благодаря чему были закуплены новые заводские линии.</p>
+              <p class="news__more">подробнее</p>
+            </div>
+          </a>
+        </article>
+        <article class="news__item">
+          <a href="#" class="news__link">
+            <img class="news__img" src="./img/newImg.png" alt="картинка новости">
+            <div class="news__content">
+              <p class="news__date">12.09.2022</p>
+              <p class="news__text">В период активного развития импортозамещения наша компания выстояла все возможные
+                трудности, благодаря чему были закуплены новые заводские линии.</p>
+              <p class="news__more">подробнее</p>
+            </div>
+          </a>
+        </article>
+      </div>
+
+    </section>
+
+    <section class="visual">
+      <h2 class="visual__title-desc title">Визуальная одиссея нашего производства: <br> взгляд изнутри на творчество и
+        качество</h2>
+      <h2 class="visual__title-mob title">Фотогалерея</h2>
+      <ul class="visual__grid">
+        <li class="visual__item">
+          <img class="visual__img" src="./img/viz1.png" alt="фото производства">
+        </li>
+        <li class="visual__item">
+          <img class="visual__img" src="./img/viz2.png" alt="фото производства">
+        </li>
+        <li class="visual__item">
+          <img class="visual__img" src="./img/viz3.png" alt="фото производства">
+        </li>
+        <li class="visual__item">
+          <img class="visual__img" src="./img/viz4.png" alt="фото производства">
+        </li>
+        <li class="visual__item">
+          <img class="visual__img" src="./img/viz5.png" alt="фото производства">
+        </li>
+      </ul>
+    </section>
+
+    <section class="string">
+      <div class="string__container">
+        <img class="string__img" src="./img/string1.png" alt="лого партнера производств">
+        <img class="string__img" src="./img/string2.png" alt="лого партнера производств">
+        <img class="string__img" src="./img/string3.png" alt="лого партнера производств">
+        <img class="string__img" src="./img/string4.png" alt="лого партнера производств">
+        <img class="string__img" src="./img/string5.png" alt="лого партнера производств">
+        <img class="string__img" src="./img/string6.png" alt="лого партнера производств">
+        <img class="string__img" src="./img/string7.png" alt="лого партнера производств">
+      </div>
+    </section>
+
+    <section class="share">
+      <form class="share__form">
+        <h2 class="title share__title">Поделитесь своим мнением <br> о нашей продукции</h2>
+
+
+        <div class="w-100">
+          <input class="share__input" id="inputName" placeholder="Ваше имя" required>
+          <div class="inputName"></div>
+        </div>
+
+        <input class="share__input" value="+7">
+
+
+        <input class="share__input" placeholder="Ваш e-mail">
+
+        <div class="share__input share__cause">
+
+          <button class="share__cause-btn collapsed" type="button" data-toggle="collapse" data-target="#cause"
+            aria-expanded="false" aria-controls="cause" id="causebtn">Выберите причину обращения</button>
+
+          <ul class="header__list collapse multi-collapse" id="cause">
+            <p class="header__option share__option">Вопросы по сайту</p>
+            <p class="header__option share__option">Сотрудничество</p>
+            <p class="header__option share__option">Идеи и пожелания по продукту</p>
+            <p class="header__option share__option">Качество продукции</p>
+            <p class="header__option share__option">Вопросы экспертам</p>
+            <p class="header__option share__option">Отзывы по продуктам</p>
+          </ul>
+        </div>
+
+
+
+        <input class="share__input" placeholder="Ваш комментарий">
+
+        <button class="btn outline">ПОДЕЛИТЬСЯ</button>
+      </form>
+      <img class="share__pers" src="./img/Персонаж.svg" alt="рисунок персонажа IDEL">
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer_main">
+      <div class="footer__container one">
+
+        <ul class="footer__list">
+          <p>Наша компания</p>
+          <li><a href="">О компании</a></li>
+          <li><a href="">Дистрибьютор</a></li>
+          <li><a href="">Партнеры</a></li>
+          <li><a href="">Новости</a></li>
+          <li><a href="">Рациональное использование ресурсов</a></li>
+        </ul>
+        <ul class="footer__list">
+          <p>Забота о клиенте</p>
+          <li><a href="">Гарантия</a></li>
+          <li><a href="">Возврат и обмен</a></li>
+          <li><a href="">Доставка и оплата</a></li>
+          <li><a href="">Сертификаты соответствия</a></li>
+          <li><a href="">Оставьте нам отзыв</a></li>
+        </ul>
+        <ul class="footer__list list">
+          <p>Связаться с нами</p>
+          <li><a href="">+7(953)570-66-80</a></li>
+          <li><a class="und" href="">oootdidel@yandex.ru</a></li>
+          <li><a href="">Д606023 Нижегородская область, г. Дзержинск, ул. Бутлерова, 42</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__container two">
+
+        <ul class="footer__list">
+          <p>Новостная рассылка</p>
+          <li>Подпишитесь на акции, новые поступления, советы и многое другое от нашей команды</li>
+          <form class="footer__form">
+            <input class="footer__input" placeholder="Ваш e-mail">
+            <button class="footer__form-btn"></button>
+          </form>
+          <div class="footer__icons main">
+            <a href=""><img src="./img/WA_Logo.svg" alt="лого вацапа"></a>
+            <a href=""><img src="./img/telegram 1.svg" alt="лого телеграма"></a>
+          </div>
+        </ul>
+
+        <ul class="footer__list sub">
+          <p>Связаться с нами</p>
+          <li><a href=""><b>Телефон: </b>+7(953)570-66-80</a></li>
+          <li><a class="und" href=""><b>E-mail: </b><span>oootdidel@yandex.ru</span></a></li>
+          <li><a href=""><b>Адрес: </b>Д606023 Нижегородская область, г. Дзержинск, ул. Бутлерова, 42</a></li>
+
+          <div class="footer__icons mob">
+            <a href=""><img src="./img/WA_Logo.svg" alt="лого вацапа"></a>
+            <a href=""><img src="./img/telegram 1.svg" alt="лого телеграма"></a>
+          </div>
+        </ul>
+
+      </div>
+    </div>
+    <div class="footer_sub">
+      <a href="">Правила и условия</a>
+      <a href="">Политика конфиденциальности</a>
+      <a href="">Разработка сайта - <span>“Сайт НН”</span></a>
+      <a href="">© 2023 IDEL</a>
+    </div>
+    <div class="footer_sub footer_sub-mob">
+      <a href="">Разработка сайта - <span>“Сайт НН”</span></a>
+      <a href="">Политика конфиденциальности</a>
+      <div class="d-flex flex-row justify-content-between">
+        <a href="">Правила и условия</a>
+        <a href="">© 2023 IDEL</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      rewind: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
