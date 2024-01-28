@@ -1195,6 +1195,9 @@ a:hover {
     grid-column: 1/2;
     border-radius: 0 30px 0 30px;
   }
+  .string__container {
+    width: 1000px;
+  }
   .footer_sub {
     display: none;
   }
@@ -1329,6 +1332,7 @@ a:hover {
     display: block;
   }
   .share {
+    padding: 40px 0;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -1435,6 +1439,15 @@ a:hover {
     grid-row: 4/5;
     grid-column: 1/2;
     border-radius: 0 30px 0 30px;
+  }
+  .string {
+    padding: 40px 0;
+  }
+  .string__container {
+    width: 820px;
+  }
+  .string__img {
+    height: 73px;
   }
   .footer {
     padding: 0 20px;
